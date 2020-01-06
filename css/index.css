@@ -25,12 +25,19 @@ footer p {
   height: 60vh;
   margin: 0 auto;
   position: absolute;
-  border: 2px solid blue;
-  padding-bottom: -50%;
 }
 .container .header .header-text {
-  padding: 30% 0 30% 5%;
+  padding: 1% 0 85% 57%;
   position: relative;
+  color: #5A4E4E;
+}
+.container .header .header-text h1 {
+  font-size: 3rem;
+  width: 55%;
+}
+.container .header .header-text p {
+  width: 55%;
+  font-size: 1.5rem;
 }
 .container .about-us {
   background: #FFB90F;
