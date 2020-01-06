@@ -68,3 +68,17 @@ footer p {
   font-style: normal;
   font-weight: normal;
 }
+.container .about-us .button-class {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .about-us .button-class .sign-up {
+  border: none;
+  background-color: inherit;
+  color: #16432D;
+}
+.container .about-us .button-class .log-in {
+  border: none;
+  background-color: inherit;
+  color: #5A4E4E;
+}
