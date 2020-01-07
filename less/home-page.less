@@ -1,4 +1,45 @@
 .container {
+  .top-content {
+      .top-content-text nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #5a4e4e;
+        color: #e9bb41;
+        height: 5.5vh;
+        padding-right: 8%;
+
+        .hamburger-icon {
+            padding: 70% 0 0 125%;
+            .bar1, .bar2, .bar3 {
+                background-color: #e9bb41;
+                width: 17px;
+                height: 2px;
+                margin: 3px 0;
+            }
+        }
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3rem;
+            letter-spacing: 0.15px;
+            margin: 0 auto;
+            
+            padding-left: 6%;
+        }
+        .fa-search {
+            padding: 55% 0 0 70%;
+            color: #e9bb41;
+
+        }
+        .fa-ellipsis-v {
+            padding: 145% 0 0 600%;
+            color: #e9bb41;
+        }
+      }
+        
+    
+  }
   .header {
     position: relative;
     display: inline-block;
@@ -50,20 +91,37 @@
         font-style: normal;
         font-weight: normal;
       }
-    }
-        .button-class {
-            display: flex;
-            justify-content: flex-end;
-            .sign-up {
-                border: none;
-                background-color: inherit;
-                color: #16432D;
-            }
-            .log-in {
-                border: none;
-                background-color: inherit;
-                color: #5A4E4E;
-            }    
+      .button-class {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin: 7.25% 0 0 19%;
+        .sign-up {
+            border: none;
+            background-color: inherit;
+            color: #16432D;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 1.6rem;
+            letter-spacing: 0.75px;
+            padding-right: 3.5%;
+            text-transform: uppercase;
+            border: 2px solid red;
+            flex-wrap: nowrap;
         }
+        .log-in {
+            border: none;
+            background-color: inherit;
+            color: blue;
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+        }    
+    }
+    }
   }
 }
