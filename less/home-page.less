@@ -1,62 +1,4 @@
 .container {
-  .top-content {
-    .top-content-text nav {
-      display: flex;
-      justify-content: space-between;
-      background-color: #5a4e4e;
-      color: #e9bb41;
-      height: 5.5vh;
-      padding-right: 8%;
-
-      .fa-bars {
-        color: #e9bb41;
-        padding: 70% 0 0 125%;
-      }
-      h2 {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3rem;
-        letter-spacing: 0.15px;
-        margin: 0 auto;
-        padding-left: 6%;
-
-
-        .fa-bars {
-            color: #e9bb41;
-            padding: 70% 0 0 125%;
-        }
-        h2 {
-            font-family: 'Open Sans', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 3rem;
-            letter-spacing: 0.15px;
-            margin: 0 auto;
-            padding-left: 6%;
-
-        @media @mobile {
-          font-size: 2.8rem;
-          padding-top: 1%;
-
-        }
-      }
-      .fa-search {
-        padding: 55% 0 0 70%;
-        color: #e9bb41;
-        @media @mobile {
-          padding-left: 1%;
-        }
-      }
-      .fa-ellipsis-v {
-        padding: 145% 0 0 600%;
-        color: #e9bb41;
-        @media @mobile {
-          padding-left: 300%;
-        }
-      }
-    }
-  }
   .header {
     position: relative;
     display: inline-block;
@@ -175,8 +117,10 @@
       font-style: normal;
       font-weight: bold;
       @media @mobile {
+        display: flex;
+        justify-content: center;
+        padding: 3% 0 0 0;
         font-size: 2.5rem;
-
       }
     }
     p {
@@ -185,17 +129,29 @@
       font-family: "Roboto", sans-serif;
       font-style: normal;
       font-weight: normal;
+      @media @mobile {
+          padding: 0 5% 5% 5%;
+      }
     }
     hr {
       width: 90%;
       border: 1px solid #e9bb41;
+      @media @mobile {
+        width: 80%;
+      }
     }
     .team-container {
       display: flex;
       padding: 0 0 0 0;
       width: 100%;
+      @media @mobile {
+          flex-direction: column;
+      }
       .front-end {
         width: 33%;
+        @media @mobile {
+            width: 100%;
+        }
         h2 {
           padding: 0 0 0 0;
           display: flex;
@@ -205,6 +161,15 @@
           font-style: normal;
           font-weight: bold;
           color: white;
+        }
+        hr {
+            display: none;
+            @media @mobile {
+            display: block;
+            border: 1px solid white;
+            width: 40%;
+            margin-top: -4%;
+            }
         }
         .github-profile {
           display: flex;
@@ -219,18 +184,29 @@
           .span-class {
             display: flex;
             padding: 3% 0 0 0;
+            justify-content: center;
+            @media @mobile {
+                align-items: center;
+            }
             .github-span {
               padding: 5% 4% 0 0;
             }
             .name-span {
               padding: 5% 0 0 5%;
               width: 100%;
+              @media @mobile {
+                  width: 50%;
+              }
             }
           }
         }
       }
+
       .back-end {
         width: 33%;
+        @media @mobile {
+            width: 100%;
+        }
         h2 {
           padding: 0 0 0 0;
           display: flex;
@@ -242,6 +218,15 @@
           font-style: normal;
           font-weight: bold;
           color: white;
+        }
+        hr {
+            display: none;
+            @media @mobile {
+            display: block;
+            border: 1px solid white;
+            width: 40%;
+            margin-top: -4%;
+            }
         }
         .github-profile {
           display: flex;
@@ -256,18 +241,28 @@
           .span-class {
             display: flex;
             padding: 3% 0 0 0;
+            justify-content: center;
+            @media @mobile {
+                align-items: center;
+            }
             .github-span {
               padding: 5% 4% 0 0;
             }
             .name-span {
               padding: 5% 0 0 5%;
               width: 100%;
+              @media @mobile {
+                width: 50%;
+              }
             }
           }
         }
       }
       .marketing {
         width: 33%;
+        @media @mobile {
+            width: 100%;
+        }
         h2 {
           padding: 0 0 0 0;
           display: flex;
@@ -279,6 +274,15 @@
           font-style: normal;
           font-weight: bold;
           color: white;
+        }
+        hr {
+            display: none;
+            @media @mobile {
+            display: block;
+            border: 1px solid white;
+            width: 40%;
+            margin-top: -4%;
+            }
         }
         .github-profile {
           display: flex;
@@ -293,12 +297,19 @@
           .span-class {
             display: flex;
             padding: 3% 0 0 0;
+            justify-content: center;
+            @media @mobile {
+                align-items: center;
+            }
             .github-span {
               padding: 5% 4% 0 0;
             }
             .name-span {
               padding: 5% 0 0 5%;
               width: 100%;
+              @media @mobile {
+                width: 50%;
+              }
             }
           }
         }
